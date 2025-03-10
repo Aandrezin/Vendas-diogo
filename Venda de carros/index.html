@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW Sales</title>
+    
+    <link href="assets/styles/style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">All BMW</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cars">Carros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Sobre Nós</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="container-fluid bg-primary text-white text-center py-5">
+        <h1>Bem-vindo à BMW Sales</h1>
+        <p>Os melhores modelos BMW disponíveis para você.</p>
+    </div>
+
+    <div id="cars" class="container py-5">
+        <h2 class="text-center mb-4">Modelos Disponíveis</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/images/320i.png" class="card-img-top" alt="BMW Série 3">
+                    <div class="card-body">
+                        <h5 class="card-title">BMW Série 3</h5>
+                        <p class="card-text">O equilíbrio perfeito entre conforto e esportividade.</p>
+                        <a href="serie3.html" class="btn btn-primary">Ver mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/images/x5.png" class="card-img-top" alt="BMW X5">
+                    <div class="card-body">
+                        <h5 class="card-title">BMW X5</h5>
+                        <p class="card-text">A SUV de luxo para todas as aventuras.</p>
+                        <a href="x5.html" class="btn btn-primary">Ver mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/images/z4.png" class="card-img-top" alt="BMW Z4">
+                    <div class="card-body">
+                        <h5 class="card-title">BMW Z4</h5>
+                        <p class="card-text">A combinação ideal de performance e estilo.</p>
+                        <a href="z4.html" class="btn btn-primary">Ver mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="about" class="container py-5">
+        <h2 class="text-center mb-4">Sobre Nós</h2>
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <img src="assets/images/aperto.png" alt="Sobre nós" class="img-fluid rounded shadow-lg w-100">
+            </div>
+            <div class="col-md-6">
+                <p class="text-justify mb-4">
+                    <i class="bi bi-trophy-fill text-primary me-2"></i>
+                    <strong>Excelência Garantida:</strong> Na BMW Sales, nosso compromisso é oferecer uma experiência única de compra de veículos, priorizando qualidade e satisfação.
+                </p>
+                <p class="text-justify mb-4">
+                    <i class="bi bi-people-fill text-primary me-2"></i>
+                    <strong>Equipe Especializada:</strong> Nossa equipe está sempre pronta para guiá-lo na escolha do modelo BMW que se adapta ao seu estilo e necessidades.
+                </p>
+                <p class="text-justify mb-4">
+                    <i class="bi bi-geo-alt-fill text-primary me-2"></i>
+                    <strong>Localização Premium:</strong> Localizados no coração da cidade, proporcionamos um ambiente de alto padrão para nossos clientes.
+                </p>
+                <p class="text-justify mb-4">
+                    <i class="bi bi-house-door-fill text-primary me-2"></i>
+                    <strong>Loja Física:</strong> Visite nossa loja física localizada em Guarapuava, Paraná. Estamos prontos para recebê-lo e ajudá-lo a escolher o BMW perfeito para você!
+                </p>
+                <p class="text-justify">
+                    <i class="bi bi-car-front-fill text-primary me-2"></i>
+                    <strong>Inovação e Design:</strong> Oferecemos apenas veículos de última geração, combinando tecnologia avançada e design icônico.
+                </p>
+                <p class="text-justify">
+                    <i class="bi bi-geo-alt-fill text-primary me-2"></i>
+                    <strong>Endereço da Loja:</strong> Rua das Indústrias, 200, Centro, Guarapuava, PR, 85010-000.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="bg-dark text-white text-center py-4">
+        <h2>Contato</h2>
+        <p>Email: contato@bmwsales.com | Telefone: +55 11 99876-5432</p>
+    </div>
+
+    <footer class="bg-primary text-white text-center py-3">
+        <p>&copy; 2024 All BMW. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
