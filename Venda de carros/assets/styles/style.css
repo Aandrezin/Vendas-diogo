@@ -34,3 +34,33 @@
     border: none;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+.menu-acessibilidade {
+    position: fixed;
+    top: 2rem;
+    right: 20px;
+    z-index: 1000;
+}
+
+#botao-acessibilidade {
+    margin-bottom: 10px;
+}
+
+.opcoes-acessibilidade {
+    display: none; /* Inicia oculto */
+    flex-direction: column;
+}
+
+.opcoes-acessibilidade button {
+    margin-bottom: 5px;
+}
+
+.apresenta-lista {
+    display: flex; /* Torna visível ao ativar */
+}
+
+.rotacao-botao {
+    transform: rotate(-90deg); /* Anima o botão */
+    transform-origin: right center;
+}
+
