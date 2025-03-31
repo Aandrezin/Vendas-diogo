@@ -1,0 +1,101 @@
+/* Configuração padrão */
+.card-img-top {
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+}
+
+.hero-section {
+    background: url('/assets/images/interior.png') no-repeat center center;
+    background-size: cover;
+    height: 300px;
+    position: relative;
+}
+
+.hero-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hero-text {
+    position: relative;
+    color: white;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#opcoes-acessibilidade {
+    display: none; 
+    flex-direction: row; 
+    gap: 5px; 
+    margin-top: 5px; 
+}
+
+/* Estilos para Alto Contraste */
+.alto-contraste {
+    color: #ffd700; 
+    background-color: #000000; /* Fundo preto */
+}
+
+.alto-contraste a {
+    color: #ffd700;
+}
+
+.alto-contraste header,
+.alto-contraste footer,
+.alto-contraste .navbar {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.alto-contraste p, .alto-contraste li, .alto-contraste th, .alto-contraste td {
+    color: #ffd700; /* Textos em parágrafos, listas e tabelas dourados */
+}
+
+.alto-contraste h1, .alto-contraste h2, .alto-contraste h3,
+.alto-contraste h4, .alto-contraste h5, .alto-contraste h6 {
+    color: #ffd700; /* Títulos dourados */
+}
+
+.alto-contraste .btn-primary {
+    background-color: #ffd700;
+    color: #000000;
+    border-color: #ffd700;
+}
+
+.alto-contraste .card {
+    background-color: #ffffff77;
+    color: #ffffff;
+}
+
+.alto-contraste .nav-link {
+    color: #ffd700;
+}
+
+.alto-contraste img {
+    filter: brightness(1.1) contrast(1.1);
+}
+
+.alto-contraste table {
+    color: #ffd700; /* Textos nas tabelas dourados */
+}
+
+.alto-contraste th,
+.alto-contraste td {
+    color: #ffd700 !important; /* Força o estilo dourado */
+}
+
+.alto-contraste p,
+.alto-contraste li {
+    color: #ffd700; /* Textos em parágrafos e listas dourados */
+}
